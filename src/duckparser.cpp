@@ -230,6 +230,8 @@ namespace duckparser {
                     keyboard.setLocale(&locale_chfr);
                 } else if (compare1(w->str, w->len, "HU", CASE_INSENSETIVE)) {
                     keyboard.setLocale(&locale_hu);
+                } else if (compare1(w->str, w->len, "SE", CASE_INSENSETIVE)) {
+                    keyboard.setLocale(&locale_se);
                 }
                 
                 ignore_delay = true;

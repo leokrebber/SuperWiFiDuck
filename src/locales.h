@@ -27,3 +27,4 @@
 #include "locale/locale_chde.h"
 #include "locale/locale_chfr.h"
 #include "locale/locale_hu.h"
+#include "locale/locale_se.h"
